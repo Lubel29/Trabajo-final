@@ -6,15 +6,11 @@ body {
     font-family: 'Press Start 2P', cursive;
     font-size: 10px;
     line-height: 20px;
-
 }
 
 h1 {
     font-family: 'Press Start 2P', cursive;
-
 }
-
-
 
 header {
     color: rgb(68, 10, 68);
@@ -30,17 +26,16 @@ header {
     align-items: center;
     background: rgb(145, 34, 195);
     background: linear-gradient(332deg, rgba(145, 34, 195, 1) 0%, rgba(253, 187, 45, 1) 29%);
-
 }
 
 h2 {
     color: rgb(84, 28, 136);
     font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 
 footer {
-    background: #a9a5a5;
     background: linear-gradient(305deg, #a9a5a5 0%, #b4b4b4 20%);
     background: -webkit-linear-gradient(305deg, #a9a5a5 0%, #b4b4b4 20%);
     background: -moz-linear-gradient(305deg, #a9a5a5 0%, #b4b4b4 20%);
@@ -82,7 +77,7 @@ nav ul li a.activo {
 }
 
 .holder {
-    max-width: 1500px;
+    max-width: 1800px;
     margin: auto;
 }
 
@@ -90,10 +85,38 @@ nav ul li a.activo {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 100px;
+    align-content: center;
 
 }
 
+.propagandaRetro p {
+    display: flex;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    text-shadow: 0 0 15px #e4e0e0;
+    background: rgba(211, 204, 204, 0.4);
+    font-size: 13px;
+
+}
+
+.propagandaActual p {
+    display: flex;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    text-shadow: 0 0 15px #e4e0e0;
+    background: rgba(211, 204, 204, 0.4);
+    font-size: 13px;
+}
+
+
 /*fin seccion home*/
+
+/*inicio seccion pasado*/
 
 /*font-family: 'Source Code Pro', monospace;*/
 
@@ -109,8 +132,7 @@ h3 {
 }
 
 aside {
-    width: 180px;
-    height: 300px;
+    width: 250px;
     float: left;
     position: relative;
     margin: auto;
@@ -123,6 +145,13 @@ aside {
 h4 {
     text-align: center;
     font-size: medium;
+}
+
+.Cajapasado {
+
+    display: flex;
+    margin: auto;
+
 }
 
 .Consola {
@@ -149,5 +178,180 @@ h4 {
 }
 
 .Consola:hover img {
+    cursor: pointer;
+}
+
+.tipo {
+    margin: auto;
+    padding: 10px;
+}
+
+/* fin de seccion pasado*/
+/*inicio de seccion Apoge*/
+
+.CajaApogeo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    left: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#fondo {
+    background: rgba(126, 126, 126, 0.29);
+    background: repeating-linear-gradient(335deg, rgba(126, 126, 126, 0.29) 0%, rgba(226, 214, 174, 0.47) 20%);
+    background: -webkit-repeating-linear-gradient(335deg, rgba(126, 126, 126, 0.29) 0%, rgba(226, 214, 174, 0.47) 20%);
+    background: -moz-repeating-linear-gradient(335deg, rgba(126, 126, 126, 0.29) 0%, rgba(226, 214, 174, 0.47) 20%);
+}
+
+.revistas {
+    display: inline-block;
+    flex-wrap: nowrap;
+    margin:20px 50px;
+    padding: 1%;
+    border: 2px groove #400153;
+    width: 10%;
+
+}
+
+.revistas p::first-letter {
+    text-transform: lowercase;
+    font-weight: bold;
+  
+
+}
+
+.revistas p::first-letter {
+    text-transform: uppercase;
+    font-size: 150%;
+    color: #bd54d4;
+}
+
+.revistas img {
+    flex-wrap: nowrap;
+
+}
+
+.fa-solid {
+    font-size: 30px;
+    padding-left: 45%;
+
+}
+
+
+aside.datocurioso {
+    width: 10%;
+    float: right;
+    border: 2px groove #400153;
+    padding:1%;
+margin: 20px;
+}
+
+.datocurioso img {
+    display: inline-block;
+    margin: auto;
+}
+
+.datocurioso p::first-letter {
+    font-weight: bold;
+    color: #bd54d4;
+
+}
+
+.Consolasapogeo {
+    display: flex;
+    gap:10px;
+    margin: auto;
+}
+
+.Consolastipo {
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: stretch;
+
+
+}
+
+.Consolastipo img {
+    display: flex;
+    margin: auto;
+
+}
+
+.Consolastipo span {
+    border-bottom-style: dotted;
+    font-size: 12px;
+    color: #400153;
+}
+
+
+/*fin seccion pasado*/
+
+/*Inicio sección Hoy*/
+/*Fin sección Hoy*/
+
+/*Inicio sección Futuro*/
+
+#fondo2 {
+    background-color: rgb(248, 246, 232);
+}
+
+.desenlace p::first-line{
+    color: #400153;
+  font-weight: bold;
+}
+
+
+.fa-solid {
+    font-size: 40px;
+}
+
+.mensaje{
+    display: flex;
+    gap: 30px;
+}
+
+.mensaje div{
+    width: 100%;
+}
+
+.Formulario p{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.Formulario label{
+    min-width: 100px;
+}
+
+
+.Formulario p textarea,
+.Formulario p input {
+    width: 50%;
+    border-radius: 5%;
+    border: 1px solid rgb(152, 34, 231);
+}
+
+.Formulario p textarea{
+    resize: none;
+    width: 450px;
+    height: 200px;
+}
+
+.Formulario input[type="submit"]{
+    background:cadetblue;
+    color: white;
+    width: auto;
+    padding:10px 20px;
+}
+
+.Formulario input[type="submit"]:hover{
+    background-color: burlywood;
     cursor: pointer;
 }
