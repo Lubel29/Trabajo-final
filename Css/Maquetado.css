@@ -49,6 +49,7 @@ nav {
     background: linear-gradient(332deg, rgba(145, 34, 195, 1) 0%, rgba(253, 187, 45, 1) 29%);
     margin-bottom: 0rem;
     padding: 50px;
+    justify-content: center;
 }
 
 nav ul {
